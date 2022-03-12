@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.image {
+  max-height: 350px;
+  max-width: 800px;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.caption {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #cbd5e1;
+}
+.accelerate {
+  height: 30px;
+  width: 80px;
+  background-color: #0b69ff;
+  color: #94a3b8;
+  border: 0px none;
+  border-radius: 5px;
+  margin: 10px;
+}
+.apply-brakes {
+  height: 30px;
+  width: 120px;
+  background-color: transparent;
+  color: #94a3b8;
+  border: 1px solid #94a3b8;
+  border-radius: 5px;
+  margin: 10px;
+}
